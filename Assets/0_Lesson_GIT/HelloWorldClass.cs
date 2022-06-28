@@ -1,5 +1,8 @@
 using System; //We are using the "System" Library in this file to reach the "Console".
 
+//To avoid name conflicts and encapsulate logical components we create or extend the Lesson_0 namespace
+//If two "Class"-es is defined with the name "Car" but has nothing to do with each other, we could seperate them by wrapping them in seperate namespaces
+//But what is a "Class"? See below.
 namespace Lesson_0
 {
     /* Snippet from https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes
@@ -8,6 +11,10 @@ namespace Lesson_0
         the variable contains the value null until you explicitly create an instance of the class by 
         using the new operator, or assign it an object of a compatible type that may have been created elsewhere
     */
+    //Notes about Classes;
+    //The first step to understanding object oriented programming is learning about the concept of instantianting an Object from a Class.
+    //A good mental picture could be; A cake-recipe (Class) can be followed to create multiple cakes (Objects)
+    //As we are using Unity, another more related picture could be how one Class could become thousands of bullets, monsters or whatnot.
     public class Lesson_0
     {
         /* snippet from https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line
