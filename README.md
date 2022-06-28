@@ -28,6 +28,10 @@ All lessons will have a corresponding directory with individual instructions bes
 
 ## Expected learning
 
+Lessons 0 -> 7, have been created to accomodate:
+Programmering B, valgfag
+Boerne- og Undervisningsministeriet Styrelsen for Undervisning og Kvalitet, juni 2021
+
 ### 0. Git and SCM
 
 ### 1. Variables and basic types
