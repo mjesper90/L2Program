@@ -4,7 +4,7 @@ namespace Lesson_0
 {
     public class HelloWorld : MonoBehaviour
     {
-        public string helloStringClassField = "HelloWorld!";
+        public string helloString = "HelloWorld!";
         
         public void WrongStart(){
             PrintHelloWorldMessageABC();
@@ -12,7 +12,7 @@ namespace Lesson_0
 
         public void PrintHelloWorldMessageABC()
         {
-            Debug.Log(helloStringClassField);
+            Debug.Log(helloString);
         }
     }
 }
