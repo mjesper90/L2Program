@@ -46,7 +46,6 @@ GitKraken hides a lot of the complexity via a Graphical User Interface (GUI) and
 
 ## 2. Alter the hello world class
 
-Read the HelloWorldClass.cs for an example of a C# program with a main method and a Class definition.
-
+Fix the problems in HelloWorld.cs and pass all the tests
 
 ## 3. Running the tests

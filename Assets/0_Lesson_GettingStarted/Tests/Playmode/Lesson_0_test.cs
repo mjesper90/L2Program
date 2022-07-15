@@ -55,35 +55,21 @@ public class Lesson_0_test
     }
 
     [UnityTest]
-    public IEnumerator PrintMethodTest()
+    public IEnumerator PrintHelloWorldMessageExistsTest()
     {
         Type type = typeof(HelloWorld);
-        MethodInfo method = type.GetMethod("Print");
-        Assert.IsNotNull(method, "Couldn't find Print() method in class, are you sure you've spelled it right?");
+        MethodInfo method = type.GetMethod("PrintHelloWorldMessage");
+        Assert.IsNotNull(method, "Couldn't find PrintHelloWorldMessage() method in class, are you sure you've spelled it right?");
         yield return null;
     }
 
     [UnityTest]
-    public IEnumerator HelloStringVariableTest()
+    public IEnumerator HelloStringPublicStringExistsTest()
     {
         Type type = typeof(HelloWorld);
         MemberInfo[] a = type.GetMember("helloString");
         Assert.IsTrue(a.Length > 0, "couldn't find public string helloString");
         Assert.IsTrue((string)((FieldInfo)a[0]).GetValue(script) == "HelloWorld!", "Public helloString should have value HelloWorld!");
-        yield return null;
-    }
-    
-    [UnityTest]
-    public IEnumerator Helloworldtest()
-    {
-        yield return new WaitWhile(() => sceneLoaded == false);
-        SetupReferences();
-        Assert.IsNotNull(script);
-        Type type = typeof(HelloWorld);
-        MethodInfo method = type.GetMethod("Print");
-        Assert.IsNotNull(method, "Couldn't find Print() method in class, are you sure you've spelled it right?");
-        string result = (string)method.Invoke(script, null);
-        Assert.AreEqual(result, "HelloWorld!");
         yield return null;
     }
 
@@ -95,5 +81,4 @@ public class Lesson_0_test
         Assert.IsNotNull(method, "Couldn't find Start() method in class, are you sure you've spelled it right?");
         yield return null;
     }
-
 }

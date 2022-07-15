@@ -6,14 +6,26 @@ You will come to use C# as your language to interact with the Unity game engine 
 
 So what did that all mean? If you follow below guide, you will come to know, I promise!
 
+# Installation of required tools
+
+## Unity
 The Unity engine is an incredibly sophisticated platform mainly focused on creating games for "all" platforms
  
- * Required version 2021.3.1f1
+ * Required minimum version 2021.3.1f1
  * HomePage
- * YouTube
+ * [INSTALL-GIF]
 
+## Git, Github and Gitkraken
 
-The aim is to provide the student with a good foundation for understanding how software works and is developed and allow for the students to continue learning on their own.
+ * Gitkraken required minimum version xxx
+ * HomePage
+ * [INSTALL-GIF]
+
+## VSCode 
+
+ * Required minimum version xxx
+ * HomePage
+ * [INSTALL-GIF]
 
 ## Lessons
 
@@ -32,19 +44,22 @@ Lessons 0 -> 7, have been created to accomodate:
 Programmering B, valgfag
 Boerne- og Undervisningsministeriet Styrelsen for Undervisning og Kvalitet, juni 2021
 
-### 0. Git and SCM
+The aim is to provide the student with a good foundation for understanding how software works and is developed and allow for the students to continue learning on their own.
+
+
+### 0. Getting started & HelloWorld!
 
 ### 1. Variables and basic types
 
-### 2. OOP, Classes and objects
+### 2. arithemic, conditions and flow
 
-### 3. OOP continued, Scopes and accesors
+### 3. Arrays and loops
 
-### 4. Polymorphism; interfaces and inheritance
+### 4. OOP, Classes and objects
 
-### 5. Basic arithemic, conditions and loops
+### 5. OOP continued, methods, scopes and accessors
 
-### 6. Extending Unitys MonoBehaviour and GameObjects in scene + prefabs
+### 6. Polymorphism; interfaces and inheritance
 
-### 7. External assets and advanced features of Unity
+### 7. Extending Unitys MonoBehaviour and GameObjects
 
