@@ -9,7 +9,7 @@ So what did that all mean? If you follow below guide, you will come to know, I p
 # Installation of required tools
 
 ## Unity
-The Unity engine is an incredibly sophisticated platform mainly focused on creating games for "all" platforms
+The Unity engine is an incredibly sophisticated platform mainly focused on creating games for all platforms
  
  * Required minimum version 2021.3.1f1
  * HomePage
@@ -29,18 +29,23 @@ The Unity engine is an incredibly sophisticated platform mainly focused on creat
 
 ## Lessons
 
-All lessons will have a corresponding directory with individual instructions best read via Github
+All lessons will have a corresponding subdirectory under the "Assets" folder with individual instructions best read via Github
+
+In the lesson folders there is a "Study" folder with extra material and examples.
 
 ## Assignments
 
- * If a lesson have an assignment, instructions will be found alongside.
- * All assignments must be pushed to your own github repository
+ * Go through all Scenes in the different lesssons folders
+ * Fix all broken tests 
+ * Push fixes to your own github repository
 
 ## Unity overview
+
 
 ## Expected learning
 
 Lessons 0 -> 7, have been created to accomodate:
+
 Programmering B, valgfag
 Boerne- og Undervisningsministeriet Styrelsen for Undervisning og Kvalitet, juni 2021
 
